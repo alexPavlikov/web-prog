@@ -1,0 +1,53 @@
+{{ define "header"}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../source/img/site.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../source/css/style.css">
+
+    <title>История нашего края</title>
+</head>
+
+<header class="header" id="header">
+    <div class="container--head">
+        <!-- <div class="header__logo"><img  width = "200" height = "200" src="../source/img/logoss.gif" alt=""></div> -->
+        <div class="header__inner">
+            <div class="header__logo"><img class="logo__img" src="../source/img/site.ico" alt=""></div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="/">Главная</a>
+                <a class="nav__link" href="/history">История</a>
+                <a class="nav__link" href="/infrastructure" >Инфраструктура</a>
+                <a class="nav__link" href="/culture">Культура и искусство</a>
+                <a class="nav__link" href="/contacs">Контакты</a>
+            </nav>
+        </div>
+       
+    </div>
+</header>
+
+
+<div class="intro intro-half" id="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <!-- <h2 class="intro__suptitle">Вас приветствует город Енакиево</h2> -->
+            <h1 style="padding-top: 170px;" class="intro__title">Добро пожаловать!</h1>
+            <div class="header__logoos"><img src="../source/img/logoss.gif" alt=""></div>
+            <!-- <a class="btn" href="#link" data-scroll="#link">Узнать больше</a> -->
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="../source/js/file.js"></script>
+
+{{ end }}
