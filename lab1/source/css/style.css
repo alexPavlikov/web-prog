@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .container {
+    opacity: 1;
     width: 100%;
     max-width: 1200px;
     margin: -40px auto;
@@ -93,6 +94,7 @@ h1,h2,h3,h4,h5,h6 {
 } */
 
 .nav__link {
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
     align-items: center;
     /* border-right: 3px solid #fff; */
     padding-right: 10px;
@@ -160,6 +162,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .intro__title {
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
     color: #fff;
     font-size: 120px;
     font-weight: 600;
@@ -178,6 +181,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .intro__suptitle {
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
     margin-top: 10px;
     margin-bottom: 20px;
     color: #fff;
@@ -292,7 +296,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .section--contacs {
-    opacity: 0.3;
+    opacity: 0.8;
     border-top: 10px solid #fff;
     background: url("../img/contacs/bg.jpeg");
     
@@ -386,11 +390,13 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .footer__suptitle {
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
     padding-top: 30px;
     color: #fff;
 }
 
 .footer__title {
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
     color: #fff;
 }
 
@@ -403,7 +409,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .href__item {
-
+    text-shadow: 1px 0 1px #000, 0 1px 1px #000, -1px 0 1px #000, 0 -1px 1px #000;
     flex: 1 1 0;
     padding-right: 30px;
     padding-left: 30px;
