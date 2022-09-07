@@ -8,7 +8,7 @@ import (
 )
 
 type Post struct {
-	Id    string `json:"id"`
+	Id    int    `json:"id"`
 	Name  string `json:"name"`
 	Email string `json:"e-mail"`
 	Title string `json:"title"`
@@ -114,9 +114,9 @@ func handlerResponse() {
 	}
 }
 
-// func getId() string {
+// func getId() int {
 // 	id := rand.Int()
-// 	return string(id)
+// 	return id
 // }
 
 func main() {

@@ -292,8 +292,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .section--contacs {
+    opacity: 0.3;
     border-top: 10px solid #fff;
     background: url("../img/contacs/bg.jpeg");
+    
     height: 1000px;
     margin-bottom: 50px;
 }
