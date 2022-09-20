@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../source/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+    <title>Главная страница</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="HTML, Meta Tags, метаданные">
+    <meta name="description" content="Сайт об HTML и CSS">
+    
+</head>
+
+<header>
+    
+    <div class="intro">
+        <div class="container">
+            <div class="intro__inner">
+            
+                <div class="intro__brand">
+                    <img width="100" height="100" class="rotate-img" src="../source/img/mi.png" alt="">
+
+                    
+                    <input style="font-size: 18px; margin-right: -5px;" type="text" placeholder="Search..">
+                    <button type="submit"><i style="padding: 3px; margin-top: 2px; cursor: pointer; background-color: transparent;" class="fa fa-search"></i></button>
+                </div>
+               
+
+                <div class="intro__account">
+                    <a href="../source/shoppingCart.html" style="background : transparent; border:none; cursor:pointer; color:aliceblue; padding-right: 15px;" type="submit"><i class="fa fa-shopping-cart fa-2x"></i></a>
+                    <button class="btn">Мой аккаунт</button>
+                    <div class="dropdown">
+                    <button class="btn" style="border-left:1px solid navy">
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Ссылка 1</a>
+                        <a href="#">Ссылка 2</a>
+                        <a href="#">Ссылка 3</a>
+                    </div>
+                    </div>
+                </div>
+
+            </div>   
+        </div>
+    </div>
+</header>
+<div style="padding-top: 10px;"> 
+<marquee behavior="alternate" bgcolor = "#fff" direction="right" style="margin: 0 150px; color: #ff8f00; font-size: 16px; font-weight: bolder; line-height: 150%; width: 75%;"onmousedown="this.stop()" onmouseup="this.start()">Wellcome to Xiaomi store</marquee>
+</div>
+
+<body class="dark-theme || light-theme" id="body">
+    <button class="btn-toggle" id="switch-theme">Вкл/Выкл темный режим</button> 
+   
+      
+    <section class="section--menu" id="menu">
+        <div style="margin-left: 10px;" class="icon-bar">
+            <a class="active" href="./index.html"><i class="fa fa-home"></i>Home</a>
+            <a href="../source/product.html"><i class="fa fa-search"></i>Product</a>
+            <a href="../source/singlePage.html"><i class="fa fa-envelope"></i>Single</a>
+            <a href="../source/shoppingCart.html"><i class="fa fa-globe"></i>Cart</a>
+            <a href="../source/checkout.html"><i class="fa fa-trash"></i>Checkout</a>
+        </div>
+    </section>
+      
+      
+
+      <section class="section--content">
+
+       <div class="section">
+            <div class="container">
+                <div class="slider">
+                    <div data-slider>
+                        <div>
+                            <div class="slider__item">
+                                <img width="1245" height="500" src="../source/img/home/slider/1.jpg" alt="">
+                            </div>
+                        </div>    
+                        <div>
+                            <div class="slider__item">
+                                <img width="1245" height="500" src="../source/img/home/slider/2.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider__item">
+                                <img width="1245" height="500" src="../source/img/home/slider/3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+        <section class="section--gallery">
+            <div class="container">
+                <div class="gallery">
+                    <figure class="gallery__item gallery__item--1">
+                        <img src="../source/img/home/gallery/log1.jpg" class="gallery__img" alt="Image 1">
+                    </figure>
+                    <figure class="gallery__item gallery__item--2">
+                        <img src="../source/img/home/gallery/log3.jpg" class="gallery__img" alt="Image 2">
+                    </figure>
+                    <figure class="gallery__item gallery__item--3">
+                        <img src="../source/img/home/gallery/log4.jpg" class="gallery__img" alt="Image 3">
+                    </figure>
+                    <figure class="gallery__item gallery__item--4">
+                        <img src="../source/img/home/gallery/log2.jpg" class="gallery__img" alt="Image 4">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="container__title">Популярные товары</div>
+                <div class="container__text">Подборка популярных товаров этой недели</div>
+
+                <div class="product">
+                    <div class="product__item">
+                        <div class="product__img">
+                            <img width="245" height="300"  src="../source/img/product/1.jpg" alt=""></div>
+                        <div class="product__name">Футболка мужская</div>
+                        <div class="product__price">$50.00</div>
+                        <div class="product__text"><a class="product__buy" href="#">Добавить в корзину</a></div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__img">
+                            <img width="245" height="300"  src="../source/img/product/2.jpg" alt=""></div>
+                    <div class="product__name">Футболка мужская</div>
+                        <div class="product__price">$50.00</div>
+                    <div class="product__text"><a class="product__buy" href="#">Добавить в корзину</a></div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__img">
+                            <img width="245" height="300" src="../source/img/product/3.jpg" alt=""></div>
+                        <div class="product__name">Футболка мужская</div>
+                        <div class="product__price">$50.00</div>
+                        <div class="product__text"><a class="product__buy" href="#">Добавить в корзину</a></div>
+                    </div>
+
+                    <div class="product__item">
+                        <div class="product__img">
+                            <img width="245" height="300" src="../source/img/product/4.jpg" alt=""></div>
+                        <div class="product__name">Футболка мужская</div>
+                        <div class="product__price">$50.00</div>
+                        <div class="product__text"><a class="product__buy" href="#">Добавить в корзину</a></div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product__item">
+                        <div class="product__img">
+                            <img width="245" height="300"  src="../source/img/product/1.jpg" alt=""></div>
+                        <div class="product__name">Футболка мужская</div>
+                        <div class="product__price">$50.00</div>
+                        <div class="product__text"><a class="product__buy" href="#">Добавить в корзину</a></div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__img">
+                            <img width="245" height="300"  src="../source/img/product/2.jpg" alt=""></div>
+                    <div class="product__name">Футболка мужская</div>
+                        <div class="product__price">$50.00</div>
+                    <div class="product__text"><a class="product__buy" href="#">Добавить в корзину</a></div>
+                    </div>
+                    <div class="product__item">
+                        <div class="product__img">
+                            <img width="245" height="300" src="../source/img/product/3.jpg" alt=""></div>
+                        <div class="product__name">Футболка мужская</div>
+                        <div class="product__price">$50.00</div>
+                        <div class="product__text"><a class="product__buy" href="#">Добавить в корзину</a></div>
+                    </div>
+
+                    <div class="product__item">
+                        <div class="product__img">
+                            <img width="250" height="300" src="../source/img/product/4.jpg" alt=""></div>
+                        <div class="product__name">Футболка мужская</div>
+                        <div class="product__price">$50.00</div>
+                        <div class="product__text"><a class="product__buy" href="#">Добавить в корзину</a></div>
+                    </div>
+                </div>
+
+                <button class="product__btn">Весь ассортимент <i class="fa fa-chevron-right"></i></button>
+
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <img width="1220" height="700" src="../source/img/home/section_bg.jpg" alt="">
+            </div>
+        </section>
+
+            <div id="conf" class="container-conf">
+                    <img style="opacity: .4; margin-left: -300px;" width="1952" height="600" src="../source/img/home/slider-bg.jpg" alt="">
+                <div class="connect-info">
+                    <div class="connect-info__item">
+                        <img  class="con__img" src="../source/img/home/face.jpg" alt="">
+                        <div class="con__review">
+                            
+                            <div class="con__text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit." 
+                                </div>
+                            <div class="cont__author">Александр Павликов</div>
+                        </div>
+                    </div>
+                    <div class="connect-info__item">
+
+                        <div class="con__title">Подпишитесь</div>
+                        <div class="con__suptitle">Для оповещение и продвижение нашего бренда</div>
+                        <div class="con__mail">
+                        <div class="mail"><input class="input__mail" type="email" placeholder="Введите почту"></div>
+                        <div class="button"><button class="con__btn">Подписаться</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <section class="section">
+                <div class="container">
+                    <div class="brand">
+
+                        <div class="brand__text">
+                            <img width="250" height="250" src="../source/img/mi.png" alt="">
+                            <p style="text-indent: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora id, 
+                                corporis impedit iure saepe molestias non fugit magni quibusdam repellat 
+                               </p>
+                               <p style="text-indent: 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora id, 
+                                corporis impedit iure saepe molestias non fugit magni quibusdam repellat 
+                               </p>
+                        </div>
+
+                        <div class="brand__item brand__link">
+
+                            <table>
+                                <tr>
+                                    <td class="table__title">Компания</td>
+                                    <td class="table__title">Информация</td>
+                                    <td class="table__title">Разделы магазина</td>
+                                </tr>
+                                <tr>
+                                    <td><a class="table__info" href="">Главная</a></td>
+                                    <td><a class="table__info" href="">Правила и условия</a></td>
+                                    <td><a class="table__info" href="">Мужской</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a class="table__info" href="">Магазин</a></td>
+                                    <td><a class="table__info" href="">Правила конфиденциальность</a></td>
+                                    <td><a class="table__info" href="">Женский</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a class="table__info" href="">О нас</a></td>
+                                    <td><a class="table__info" href="">Как купить</a></td>
+                                    <td><a class="table__info" href="">Детский</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a class="table__info" href="">Как это работает</a></td>
+                                    <td><a class="table__info" href="">Как продать</a></td>
+                                    <td><a class="table__info" href="">Одежда</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a class="table__info" href="">Контакты</a></td>
+                                    <td><a class="table__info" href="">Продвижение</a></td>
+                                    <td><a class="table__info" href="">Выбрать все</a></td>
+                                </tr>
+                            </table>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            
+    </section>
+    
+
+
+
+
+      <section class="section--right" id="right">
+        <code><h1 class="right__title">Связь с нами</h1></code>
+        <div class="contacs">
+            <h2 style="margin-top: 10px;"> Телефон: </h2>+(380)71 453 1979 <br>
+            <h2 style="margin-top: 10px;">E-mail:</h2>
+            a.pavlikov2002@gmai.com <br>
+            pavlikov.alex23@gmail.com <br>
+
+            <h2 style="margin-top: 10px;">Социальные сети:</h2>
+            <div class="contacs__link">
+                <div class="contacs__item">
+                    <a href="https://vk.com/ogromnie_eggs" target="_blank"><img class="scale" src="../source/img/home/vk.png" alt="VK"></a>
+                </div>
+                <div class="contacs__item">
+                    <a href="https://vk.com/ogromnie_eggs" target="_blank"><img class="scale" src="../source/img/home/insta.png" alt="VK"></a>
+                </div>
+                <div class="contacs__item">
+                    <a href="https://vk.com/ogromnie_eggs" target="_blank"><img class="scale" src="../source/img/home/tg.png" alt="VK"></a>
+                </div>
+            </div>
+            <h2 style="margin-top: 10px;">Дни и время работы:</h2>
+            <div style="padding-bottom: 20px;">Пн-Пт с 8:00 - 20:00</div> 
+        </div>
+      </section>
+      
+      <hr />
+   
+</body>
+
+<footer>
+    <div class="footer__info">
+        <div class="footer__item" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1333.8496034772436!2d37.75197017008863!3d48.038835971583545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e09ac05c4d1fa9%3A0x209998fcbafe2d4e!2z0YPQuy4g0JDRgNGC0LXQvNCwLCAxOTIsINCU0L7QvdC10YbQuiwg0JTQvtC90LXRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDQuNC90LAsIDgzMDAw!5e0!3m2!1sru!2sus!4v1662757399506!5m2!1sru!2sus" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div  class="footer__item">
+            <h2>Наши адресса:</h2>
+            г.Донецк, Киевский район, ул.Артема, д. 192г (Главный отдел) <br>
+            г.Донецк, Ворошиловский район, ул.Тетральная, д. 8 <br>
+            г.Горловка, Центральный район, пр.Ленина, д. 25 <br>
+
+            <h2 style="margin-top: 10px;">Социальные сети:</h2> <br>
+            <div class="contacs__link">
+                <div class="contacs__item">
+                    <a href="https://vk.com/ogromnie_eggs" target="_blank"><img class="scale" src="../source/img/home/vk.png" alt="VK"></a>
+                </div>
+                <div class="contacs__item">
+                    <a href="https://vk.com/ogromnie_eggs" target="_blank"><img class="scale" src="../source/img/home/insta.png" alt="VK"></a>
+                </div>
+                <div class="contacs__item">
+                    <a href="https://vk.com/ogromnie_eggs" target="_blank"><img class="scale" src="../source/img/home/tg.png" alt="VK"></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="third-section">
+        <div class="third-section-text"><p>© 2022 Все права бренда защищены</p></div>
+    </div>
+
+
+</footer>
+
+<script src="/examples/vendors/jquery/jquery-3.4.1.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="../source/js/file.js"></script>
+</html>
